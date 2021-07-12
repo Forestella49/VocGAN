@@ -5,9 +5,9 @@ import torch
 import argparse
 from scipy.io.wavfile import write
 import numpy as np
-from model.generator import ModifiedGenerator
-from utils.hparams import HParam, load_hparam_str
-from denoiser import Denoiser
+from VocGAN.model.generator import ModifiedGenerator
+from VocGAN.utils.hparams import HParam, load_hparam_str
+from VocGAN.denoiser import Denoiser
 
 MAX_WAV_VALUE = 32768.0
 
